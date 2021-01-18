@@ -1,6 +1,6 @@
 var express = require("express");
 var routes = express.Router();
-var control = require("/home/prashanth/Pictures/task-api/src/controllers/TakController.js");
+var control = require("./src/controllers/TakController.js");
 var port = process.env.PORT
 
 routes.post("/create-task",async(req,res)=>{
