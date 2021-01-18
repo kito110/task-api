@@ -1,5 +1,5 @@
 var mongoose = require("mongoose");
-var taskModel = require("/home/prashanth/Pictures/task-api/src/models/TaskModel.js")
+var taskModel = require("./src/models/TaskModel.js")
 var ObjectId = mongoose.Types.ObjectId;
 var temp = "";
 
