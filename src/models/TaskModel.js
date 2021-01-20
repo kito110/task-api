@@ -1,12 +1,4 @@
 var mongoose = require("mongoose");
-require("dotenv").config();
-var url = process.env.Db_URL;
-
-mongoose.connect(url,function(err,data)
-{
-if(err) throw err;
-console.log("db connected");
-});
 
 var taskschema = new mongoose.Schema({
 taskcreatedAt: Date,
